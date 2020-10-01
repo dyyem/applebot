@@ -58,9 +58,7 @@ async def question(ctx, subject = None):
                         continuing = False
                         await ctx.send("Session ended. Thanks for using the bot!")
                         break
-
-                    else:
-                        await ctx.send("Please input a valid answer!")
+						
 
             elif question_sent:
                 await ctx.send("There is already a question!")
