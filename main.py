@@ -15,52 +15,59 @@ import random
 client = commands.Bot(command_prefix=".")
 correct = ":white_check_mark:"
 wrong = ":negative_squared_cross_mark:"
-question_sent = False
 valid_subjects = ["chem", "phys"]
 questions = json.load(open("questions.json"))
+
+no_duplicates = False
 continuing = True
+question_sent = False
+
 
 @client.event
 async def on_ready():
     print("cum")
 
+
 @client.command()
-async def question(ctx, subject = None):
+async def question(ctx, subject=None):
     global question_sent
+    global no_duplicates
     global continuing
     question_sent, continuing = False, True
-    if subject not in valid_subjects:
-        await ctx.send("Please input a valid subject!")
+    if not no_duplicates:
+        no_duplicates = True
+        if subject not in valid_subjects:
+            await ctx.send("Please input a valid subject!")
 
-    else:
-        while continuing:
+        else:
+            while continuing:
 
-            if question_sent is False:
-                question_sent = True
-                qn = random.choice(questions["questions"][0][subject])
-                await ctx.send(qn["image"])
-                answer = None
+                if question_sent is False:
+                    question_sent = True
+                    qn = random.choice(questions["questions"][0][subject])
+                    await ctx.send(qn["image"])
+                    answer = None
 
-                while answer not in ["A", "B", "C", "D"]:
-                    msg = await client.wait_for('message', check=lambda message: message.author != client.user)
-                    answer = msg.content.upper().strip(" ")
+                    while answer not in ["A", "B", "C", "D"]:
+                        msg = await client.wait_for('message', check=lambda message: message.author != client.user)
+                        answer = msg.content.upper().strip(" ")
 
-                    if answer in ["A", "B", "C", "D"]:
-                        await ctx.send("You answered **%s**!" % answer)
+                        if answer in ["A", "B", "C", "D"]:
+                            await ctx.send("You answered **%s**!" % answer)
 
-                        if answer == qn["correct"]:
-                            await ctx.send("%s **Correct!** %s" % (correct, correct))
-                        else:
-                            await ctx.send("%s **Wrong!** %s\nThe correct answer was **%s.**" % (wrong, wrong, qn["correct"]))
-                        question_sent = False
+                            if answer == qn["correct"]:
+                                await ctx.send("%s **Correct!** %s" % (correct, correct))
+                            else:
+                                await ctx.send("%s **Wrong!** %s\nThe correct answer was **%s.**\nTags:%s" % (wrong, wrong, qn["correct"], qn["tags"]))
+                            question_sent = False
 
-                    elif answer == "EXIT":
-                        continuing = False
-                        await ctx.send("Session ended. Thanks for using the bot!")
-                        break
-						
+                        elif answer == "EXIT":
+                            continuing = False
+                            no_duplicates = False
+                            await ctx.send("Session ended. Thanks for using the bot!")
+                            break
 
-            elif question_sent:
-                await ctx.send("There is already a question!")
+                elif question_sent:
+                    await ctx.send("There is already a question!")
 
 client.run('NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.1e6W2LONLmawQJ7ilyx68XpKC_g')
