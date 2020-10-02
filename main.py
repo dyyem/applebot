@@ -41,7 +41,7 @@ async def question(ctx, subject=None):
 
         else:
             while continuing:
-
+                print((question_sent, no_duplicates, continuing))
                 if question_sent is False:
                     question_sent = True
                     qn = random.choice(questions["questions"][0][subject])
@@ -69,5 +69,6 @@ async def question(ctx, subject=None):
 
                 elif question_sent:
                     await ctx.send("There is already a question!")
+
 
 client.run('NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.1e6W2LONLmawQJ7ilyx68XpKC_g')
