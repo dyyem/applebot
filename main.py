@@ -2,15 +2,10 @@ import discord
 from discord.ext import commands
 import json
 import random
+import os
+from boto.s3.connection import S3Connection
 
-# storage conventions:
-# so basically each qn is stored inside that questions.json
-# we have the name of the subject
-# we have an ID - (school, year, question number in that order)
-# we have an imgur link to the photo - this is what will be posted
-# we have a "correct option"
-# and we have tags, showing which topic the question belongs to. like separation techniques for chem.
-# i realize now that this should be in github docs or whatever? but i don't know how to use github
+token = S3Connection(os.environ['TOKEN'])
 
 client = commands.Bot(command_prefix=".")
 correct = ":white_check_mark:"
@@ -58,12 +53,12 @@ async def question(ctx, subject=None):
                         answer = msg.content.upper().strip(" ")
 
                         if answer in [".A", ".B", ".C", ".D"]:
-                            await ctx.send("You answered **%s**!" % answer[1:])
+                            await ctx.send(f"You answered **{answer[1:]}**!")
 
                             if answer[1:] == qn["correct"]:
-                                await ctx.send("%s **Correct!** %s" % (correct, correct))
+                                await ctx.send(f"{correct} **Correct!** {correct}")
                             else:
-                                await ctx.send("%s **Wrong!** %s\nThe correct answer was **%s.**\nTags:%s" % (wrong, wrong, qn["correct"], qn["tags"]))
+                                await ctx.send(f"{wrong} **Wrong!** {wrong}\nThe correct answer was **{qn['correct']}**\nTags: {qn['tags']}")
                             question_sent = False
 
                         elif answer == ".EXIT":
@@ -80,4 +75,4 @@ async def question(ctx, subject=None):
                     await ctx.send("There is already a question!")
 
 
-client.run('NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.1e6W2LONLmawQJ7ilyx68XpKC_g')
+client.run(token)
