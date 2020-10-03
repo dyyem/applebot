@@ -5,7 +5,7 @@ import random
 import os
 from boto.s3.connection import S3Connection
 
-token = S3Connection(os.environ['TOKEN'])
+token = os.environ['TOKEN']
 
 client = commands.Bot(command_prefix=".")
 correct = ":white_check_mark:"
