@@ -40,33 +40,42 @@ async def question(ctx, subject=None):
             await ctx.send("Please input a valid subject!")
 
         else:
+            questions_list = questions["questions"][0][subject]
             while continuing:
-                print((question_sent, no_duplicates, continuing))
+
                 if question_sent is False:
                     question_sent = True
-                    qn = random.choice(questions["questions"][0][subject])
+                    qn = random.choice(questions_list)
+                    if len(questions_list) == 0:
+                        questions_list = questions["questions"][0][subject]
+                    questions_list.remove(qn)
                     await ctx.send(qn["image"])
                     answer = None
 
-                    while answer not in ["A", "B", "C", "D"]:
+                    # this is for mcq questions
+                    while answer not in [".A", ".B", ".C", ".D"]:
                         msg = await client.wait_for('message', check=lambda message: message.author != client.user)
                         answer = msg.content.upper().strip(" ")
 
-                        if answer in ["A", "B", "C", "D"]:
-                            await ctx.send("You answered **%s**!" % answer)
+                        if answer in [".A", ".B", ".C", ".D"]:
+                            await ctx.send("You answered **%s**!" % answer[1:])
 
-                            if answer == qn["correct"]:
+                            if answer[1:] == qn["correct"]:
                                 await ctx.send("%s **Correct!** %s" % (correct, correct))
                             else:
                                 await ctx.send("%s **Wrong!** %s\nThe correct answer was **%s.**\nTags:%s" % (wrong, wrong, qn["correct"], qn["tags"]))
                             question_sent = False
 
-                        elif answer == "EXIT":
+                        elif answer == ".EXIT":
                             continuing = False
                             no_duplicates = False
                             await ctx.send("Session ended. Thanks for using the bot!")
                             break
-
+                        
+                        elif answer == ".INFO":
+                            identity = qn["id"]
+                            await ctx.send(f"id: {identity}")
+                
                 elif question_sent:
                     await ctx.send("There is already a question!")
 

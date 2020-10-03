@@ -288,7 +288,197 @@
         "image":"https://i.imgur.com/OXrgo5n.png",
         "correct":"A",
         "tags":["acids-bases-salts"]
-        }
+        },
+
+        {
+        "id": "chem-chij-katong-2018-q1",
+        "image":"https://i.imgur.com/8MF1RkY.png",
+        "correct":"B",
+        "tags":["atomic-structure"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q2",
+        "image":"https://i.imgur.com/yOKXbUO.png",
+        "correct":"C",
+        "tags":["kinetic-particle-theory"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q3",
+        "image":"https://i.imgur.com/pzoZTTQ.png",
+        "correct":"C",
+        "tags":["separation"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q4",
+        "image":"https://i.imgur.com/3G1l8UK.png",
+        "correct":"A",
+        "tags":["separation"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q5",
+        "image":"https://i.imgur.com/Ga8NOtK.png",
+        "correct":"C",
+        "tags":["atomic-structure"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q6",
+        "image":"https://i.imgur.com/534nxQs.png",
+        "correct":"D",
+        "tags":["atomic-structure"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q7",
+        "image":"https://i.imgur.com/QcRYgJY.png",
+        "correct":"B",
+        "tags":["elements-compounds-mixtures"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q8",
+        "image":"https://i.imgur.com/F3hDx7B.png",
+        "correct":"C",
+        "tags":["bonding"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q9",
+        "image":"https://i.imgur.com/2I55xdb.png",
+        "correct":"B",
+        "tags":["bonding"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q10",
+        "image":"https://i.imgur.com/k8S1pT0.png",
+        "correct":"B",
+        "tags":["bonding"]
+        },
+    
+        {
+        "id": "chem-chij-katong-2018-q11",
+        "image":"https://i.imgur.com/GZh1s68.png",
+        "correct":"B",
+        "tags":["org-chem"]
+        },
+    
+          {
+          "id": "chem-chij-katong-2018-q12",
+          "image":"https://i.imgur.com/8tSJphA.png",
+          "correct":"C",
+          "tags":["bonding"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q13",
+          "image":"https://i.imgur.com/d6SXztY.png",
+          "correct":"A",
+          "tags":["periodic-table"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q14",
+          "image":"https://i.imgur.com/c7g2hsk.png",
+          "correct":"D",
+          "tags":["periodic-table"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q15",
+          "image":"https://i.imgur.com/Wndn0dm.png",
+          "correct":"B",
+          "tags":["qualitative-analysis"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q16",
+          "image":"https://i.imgur.com/TLHquXt.png",
+          "correct":"B",
+          "tags":["qualitative-analysis,", "metals"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q17",
+          "image":"https://i.imgur.com/rORmx40.png",
+          "correct":"B",
+          "tags":["qualitative-analysis"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q18",
+          "image":"https://i.imgur.com/wCJfq6O.png",
+          "correct":"C",
+          "tags":["acids-bases-salts"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q19",
+          "image":"https://i.imgur.com/snOxD4b.png",
+          "correct":"A",
+          "tags":["metals"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q21",
+          "image":"https://i.imgur.com/tcW4YgK.png",
+          "correct":"C",
+          "tags":["qualitative-analysis"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q22",
+          "image":"https://i.imgur.com/Xl0yPnl.png",
+          "correct":"A",
+          "tags":["acids-bases-salts"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q23",
+          "image":"https://i.imgur.com/sPlWYBe.png",
+          "correct":"B",
+          "tags":["calculation"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q24",
+          "image":"https://i.imgur.com/1AeajuF.png",
+          "correct":"C",
+          "tags":["calculation"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q25",
+          "image":"https://i.imgur.com/80eGilS.png",
+          "correct":"B",
+          "tags":["calculation"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q26",
+          "image":"https://i.imgur.com/lfAawkf.png",
+          "correct":"A",
+          "tags":["calculation"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q27",
+          "image":"https://i.imgur.com/vTRL9ra.png",
+          "correct":"B",
+          "tags":["metals"]
+          },
+    
+          {
+          "id": "chem-chij-katong-2018-q28",
+          "image":"https://i.imgur.com/oS8L6RT.png",
+          "correct":"C",
+          "tags":["bonding"]
+          }
+    
     ],
 
     "phys": [
@@ -384,47 +574,215 @@
         },
 
         {
-          "id": "phy-orchid-park-2017-q1",
-          "image":"https://i.imgur.com/6UKaaat.png",
-          "correct":"B",
-          "tags":["measurement"]
-          },
+        "id": "phy-orchid-park-2017-q1",
+        "image":"https://i.imgur.com/6UKaaat.png",
+        "correct":"B",
+        "tags":["measurement"]
+        },
     
-          {
-          "id": "phy-orchid-park-2017-q2 ",
-          "image":"https://i.imgur.com/UYrcLbV.png",
-          "correct":"D",
-          "tags":["measurement"]
-          },
+        {
+        "id": "phy-orchid-park-2017-q2 ",
+        "image":"https://i.imgur.com/UYrcLbV.png",
+        "correct":"D",
+        "tags":["measurement"]
+        },
     
+        {
+        "id": "phy-orchid-park-2017-q3",
+        "image":"https://i.imgur.com/7RnfSRN.png",
+        "correct":"C",
+        "tags":["measurement"]
+        },
+    
+        {
+        "id": "phy-orchid-park-2017-q4",
+        "image":"https://i.imgur.com/OB8vnDr.png",
+        "correct":"D",
+        "tags":["waves"]
+        },
+    
+        {
+        "id": "phy-orchid-park-2017-q5",
+        "image":"https://i.imgur.com/ZYrzhes.png",
+        "correct":"A",
+        "tags":["kinematics"]
+        },
+    
+        {
+        "id": "phy-orchid-park-2017-q10",
+        "image":"https://i.imgur.com/8gaWXa3.png",
+        "correct":"A",
+        "tags":["mass-weight-density"]
+        },
+
+        {
+        "id": "phy-ngee-ann-2017-q1",
+        "image":"https://i.imgur.com/N16zg0h.png",
+        "correct":"A",
+        "tags":["measurement"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q2",
+        "image":"https://i.imgur.com/L7WSO6f.png",
+        "correct":"C",
+        "tags":["forces"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q3",
+        "image":"https://i.imgur.com/ucsQHtk.png",
+        "correct":"A",
+        "tags":["forces"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q4",
+        "image":"https://i.imgur.com/naDYN5p.png",
+        "correct":"C",
+        "tags":["forces"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q5",
+        "image":"https://i.imgur.com/kqCBRpt.png",
+        "correct":"A",
+        "tags":["forces"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q6",
+        "image":"https://i.imgur.com/qqbEBao.png",
+        "correct":"B",
+        "tags":["mass-weight-density"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q7",
+        "image":"https://i.imgur.com/mToFBgR.png",
+        "correct":"C",
+        "tags":["turning-effect-of-forces"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q8",
+        "image":"https://i.imgur.com/1QRfvCY.png",
+        "correct":"D",
+        "tags":["turning-effect-of-forces"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q9",
+        "image":"https://i.imgur.com/SV9mgKe.png",
+        "correct":"C",
+        "tags":["pressure"]
+        },
+      
+        {
+        "id": "phy-ngee-ann-2017-q10",
+        "image":"https://i.imgur.com/vP9Fqez.png",
+        "correct":"A",
+        "tags":["pressure"]
+          },
+      
           {
-          "id": "phy-orchid-park-2017-q3",
-          "image":"https://i.imgur.com/7RnfSRN.png",
+          "id": "phy-ngee-ann-2017-q14",
+          "image":"https://i.imgur.com/EpqtV7M.png",
           "correct":"C",
-          "tags":["measurement"]
+          "tags":["pressure"]
           },
-    
+      
           {
-          "id": "phy-orchid-park-2017-q4",
-          "image":"https://i.imgur.com/OB8vnDr.png",
+          "id": "phy-ngee-ann-2017-q15",
+          "image":"https://i.imgur.com/j6o3cwC.png",
+          "correct":"A",
+          "tags":["kinetic-model-of-matter"]
+          },
+      
+          {
+          "id": "phy-ngee-ann-2017-q16",
+          "image":"https://i.imgur.com/Mx8rUH8.png",
           "correct":"D",
+          "tags":["thermal-properties-of-matter"]
+          },
+      
+          {
+          "id": "phy-ngee-ann-2017-q17",
+          "image":"https://i.imgur.com/2yPiNNx.png",
+          "correct":"D",
+          "tags":["thermal-properties-of-matter"]
+          },
+      
+          {
+          "id": "phy-ngee-ann-2017-q18",
+          "image":"https://i.imgur.com/3ehPhxm.png",
+          "correct":"D",
+          "tags":["thermal-properties-of-matter"]
+          },
+      
+          {
+          "id": "phy-ngee-ann-2017-q19",
+          "image":"https://i.imgur.com/edOxS8P.png",
+          "correct":"D",
+          "tags":["thermal-properties-of-matter"]
+          },
+      
+          {
+          "id": "phy-ngee-ann-2017-q20",
+          "image":"https://i.imgur.com/pbSxqKP.png",
+          "correct":"A",
           "tags":["waves"]
           },
-    
+      
           {
-          "id": "phy-orchid-park-2017-q5",
-          "image":"https://i.imgur.com/ZYrzhes.png",
-          "correct":"A",
-          "tags":["kinematics"]
+          "id": "phy-ngee-ann-2017-q21",
+          "image":"https://i.imgur.com/0Jfik5W.png",
+          "correct":"B",
+          "tags":["waves"]
           },
-    
-          {
-          "id": "phy-orchid-park-2017-q10",
-          "image":"https://i.imgur.com/8gaWXa3.png",
-          "correct":"A",
-          "tags":["mass-weight-density"]
-          }
-
+      
+            {
+            "id": "phy-ngee-ann-2017-q22",
+            "image":"https://i.imgur.com/BHyuy53.png",
+            "correct":"B",
+            "tags":["light"]
+            },
+      
+            {
+            "id": "phy-ngee-ann-2017-q23",
+            "image":"https://i.imgur.com/2IfWoue.png",
+            "correct":"D",
+            "tags":["light"]
+            },
+      
+            {
+            "id": "phy-ngee-ann-2017-q24",
+            "image":"https://i.imgur.com/SfDqC1f.png",
+            "correct":"B",
+            "tags":["light"]
+            },
+      
+            {
+            "id": "phy-ngee-ann-2017-q25",
+            "image":"https://i.imgur.com/CbgwYGn.png",
+            "correct":"D",
+            "tags":["light"]
+            },
+      
+            {
+            "id": "phy-ngee-ann-2017-q26",
+            "image":"https://i.imgur.com/T4m7p3V.png",
+            "correct":"B",
+            "tags":["sound"]
+            },
+      
+            {
+            "id": "phy-ngee-ann-2017-q27",
+            "image":"https://i.imgur.com/B0V7NAs.png",
+            "correct":"C",
+            "tags":["sound"]
+            }
+            
     ]
   }
   ]
