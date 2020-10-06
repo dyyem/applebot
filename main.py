@@ -3,7 +3,6 @@ from discord.ext import commands
 import json
 import random
 import os
-from boto.s3.connection import S3Connection
 import users 
 # save as environment var in heroku
 token = os.environ['TOKEN']
