@@ -5,7 +5,7 @@ import random
 import os
 import users 
 # save as environment var in heroku
-token = os.environ['TOKEN']
+token = "NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.VrDimkavPGjRqVnVtCIHt4SP6NY" # os.environ['TOKEN']
 
 client = commands.Bot(command_prefix=".")
 correct = ":white_check_mark:"
@@ -58,12 +58,13 @@ async def question(ctx, subject=None):
                             await ctx.send(f"You answered **{answer[1:]}**!")
                             if answer[1:] == qn["correct"]:
                                 await ctx.send(f"{correct} **Correct!** {correct}")
-                                player_id = ctx.message.author.id
                                 right = True
                             else:
                                 await ctx.send(f"{wrong} **Wrong!** {wrong}\nThe correct answer was **{qn['correct']}**\nTags: {qn['tags']}")
                                 right = False
+                            player_id = msg.author.id
                             users.add_player_score(player_id, subject, qn["tags"], right)
+                            users.write_to_dontpad()
                             question_sent = False
 
                         elif answer == ".EXIT":

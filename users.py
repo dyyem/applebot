@@ -69,7 +69,7 @@ def add_player_score(id, subject, tags, right):
         if player["id"] == id:
             for tag in tags:
                 add_player_score_helper(player, subject, tag, right)
-        break
+            break
     
     else:
         add_player(id)
@@ -77,6 +77,6 @@ def add_player_score(id, subject, tags, right):
             if player["id"] == id:
                 for tag in tags:
                     add_player_score_helper(player, subject, tag, right)
-            break
+                break
     
 
