@@ -64,7 +64,7 @@ async def question(ctx, subject=None):
                             else:
                                 await ctx.send(f"{wrong} **Wrong!** {wrong}\nThe correct answer was **{qn['correct']}**\nTags: {qn['tags']}")
                                 right = False
-                             users.add_player_score(player_id, subject, qn["tags"], right)
+                            users.add_player_score(player_id, subject, qn["tags"], right)
                             question_sent = False
 
                         elif answer == ".EXIT":
