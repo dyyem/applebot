@@ -5,7 +5,7 @@ import random
 import os
 import users 
 # save as environment var in heroku
-token = "NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.VrDimkavPGjRqVnVtCIHt4SP6NY" # os.environ['TOKEN']
+token = os.environ['TOKEN']
 
 client = commands.Bot(command_prefix=".")
 correct = ":white_check_mark:"
