@@ -78,10 +78,5 @@ def add_player_score(id, subject, tags, right):
                 for tag in tags:
                     add_player_score_helper(player, subject, tag, right)
             break
-
-
-add_player_score(1, "chem", ["acids-bases-salts", "calculation"], True)
-write_to_dontpad()
-
     
 
