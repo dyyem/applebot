@@ -80,3 +80,20 @@ def add_player_score(id, subject, tags, right):
                 break
     
 
+def get_stats(player_id):
+    for player in player_data["players"]:
+        if player["id"] == player_id:
+            stats_list = dict()
+            for subject in player["stats"]:
+                for topic in player["stats"][subject]: # iterate through all topics, get the nonzeroes
+                    if topic['right'] != 0 or topic['wrong'] != 0:
+                        try:
+                            stats_list[subject].append(topic)
+                        except:
+                            stats_list[subject] = [topic]
+            return stats_list
+    else:
+        return None
+
+            
+
