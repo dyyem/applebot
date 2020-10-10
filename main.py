@@ -8,7 +8,7 @@ import helpercmds
 
 token = os.environ['TOKEN']
 client = commands.Bot(command_prefix=".")
-subjects = ["chem", "phys"]
+subjects = ["chem", "phys", "bio"]
 questions = users.questions
 question_ongoing = False
 
@@ -19,9 +19,8 @@ wrong_emoji = ":no_entry_sign:"
 @client.event
 async def on_ready():
     global question_ongoing
-    print("cum")
+    print("Ready.")
     question_ongoing = False # this variable helps to prevent duplicate qns
-    players = users.read_from_dontpad()
 
 
 def generate_question(question_list, subject):
@@ -98,6 +97,7 @@ async def question(ctx, subject=None, duration=None):
                     
                 else:
                     await ctx.send(f"{wrong_emoji} You were wrong! {wrong_emoji}\nThe answer was **{question_generated['correct']}**.")
+                    question_correct = 0
                 
                 correct_answers += question_correct
 
@@ -134,7 +134,7 @@ def emoji(percentage):
 async def stats(ctx):
     player_id = ctx.author.id
     player_stats = users.get_stats(player_id)
-
+    total_stats = users.get_player(player_id)
     if player_stats is None:
         await ctx.send("You have not answered any questions yet!")
         return
@@ -142,12 +142,19 @@ async def stats(ctx):
     # get the string
     # save it as a list then join with an "\n"
     string_list = [f"Stats for **{ctx.message.author.display_name}**"]
+
+    # get overall stats:
+    total_qns, right_qns, wrong_qns = total_stats["number_right"] + total_stats["number_wrong"], total_stats["number_right"], total_stats["number_wrong"]
+    string_list.append(f"Total questions answered: **{total_qns}**")
+    string_list.append(f"Questions answered correctly: **{right_qns}**")
+    string_list.append(f"Questions answered wrongly: **{wrong_qns}**")
+    string_list.append(f"Percentage: **{right_qns / total_qns * 100:.2f}%**")
     for subject in player_stats:
         string_list.append(f"**{subject}**:")
         for topic in player_stats[subject]:
             percentage = topic['right']/ (topic['right'] + topic['wrong']) * 100 # percentage of questions in the topic that you got right
             emojis = emoji(percentage)
-            string_list.append(f"{topic['tag']}: {emojis}  **{percentage:.2f}**%")
+            string_list.append(f"{topic['tag']}: {emojis} **{percentage:.2f}**%")
     await ctx.send("\n".join(string_list))
 
 client.run(token)
