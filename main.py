@@ -23,16 +23,20 @@ async def on_ready():
     question_ongoing = False # this variable helps to prevent duplicate qns
 
 
-def generate_question(question_list, subject):
-    question_generated = random.choice(question_list)
-    question_list.remove(question_generated)
-    if len(question_list) == 0:
-        question_list = questions["questions"][0][subject]
-    return question_generated, question_list
+def generate_question(questions_list, subject, tag=None):
+    warning = False
+    question_generated = random.choice(questions_list)
+    questions_list.remove(question_generated)
+    if len(questions_list) == 0:
+        questions_list = questions["questions"][0][subject]
+        if tag is not None:
+            warning = True
+            questions_list = [question for question in questions["questions"][0][subject] if tag in question["tags"]]
+    return question_generated, questions_list, warning
 
 
 @client.command()
-async def question(ctx, subject=None, duration=None):
+async def question(ctx, subject=None, duration=None, tag=None):
     global question_ongoing
     if not question_ongoing:
 
@@ -45,21 +49,32 @@ async def question(ctx, subject=None, duration=None):
         if duration is not None:
             try: 
                 duration = int(duration)
+                if duration <= 0:
+                    raise ValueError
                 num_questions = duration
-                original_author = ctx.author 
+                original_author = ctx.author
             except: # this will trigger if duration cannot be turned into an int (i.e. it is invalid)
                 await ctx.send("Please input a valid duration!")
                 return
 
         question_ongoing = True 
-        questions_list = questions["questions"][0][subject]
+        # check if tag is valid
+        if tag is not None: 
+            questions_list = [question for question in questions["questions"][0][subject] if tag in question["tags"]]
+            if len(questions_list) == 0:
+                await ctx.send(f"Tag {tag} is invalid! Either you misspelled the tag or that tag has not been added yet. Sorry!")
+                return
+        else:
+            questions_list = questions["questions"][0][subject]
         correct_answers = 0
         question_counter = 1
 
         while question_ongoing:
 
             answer_submitted = False
-            question_generated, questions_list = generate_question(questions_list, subject)
+            question_generated, questions_list, warning = generate_question(questions_list, subject)
+            if warning:
+                await ctx.send(f"Ran out of questions. Bank has been refreshed. You may see some repeated questions.")
 
             await ctx.send(f"Question **{question_counter}:**\n{question_generated['image']}")
 
@@ -131,7 +146,7 @@ def emoji(percentage):
 
 
 @client.command()
-async def stats(ctx):
+async def stats(ctx, subject=None):
     player_id = ctx.author.id
     player_stats = users.get_stats(player_id)
     total_stats = users.get_player(player_id)
@@ -144,17 +159,37 @@ async def stats(ctx):
     string_list = [f"Stats for **{ctx.message.author.display_name}**"]
 
     # get overall stats:
-    total_qns, right_qns, wrong_qns = total_stats["number_right"] + total_stats["number_wrong"], total_stats["number_right"], total_stats["number_wrong"]
-    string_list.append(f"Total questions answered: **{total_qns}**")
-    string_list.append(f"Questions answered correctly: **{right_qns}**")
-    string_list.append(f"Questions answered wrongly: **{wrong_qns}**")
-    string_list.append(f"Percentage: **{right_qns / total_qns * 100:.2f}%**")
-    for subject in player_stats:
+    try:
+        if subject not in subjects:
+            raise ValueError
         string_list.append(f"**{subject}**:")
+        subject_right = 0
+        subject_wrong = 0
         for topic in player_stats[subject]:
-            percentage = topic['right']/ (topic['right'] + topic['wrong']) * 100 # percentage of questions in the topic that you got right
+            right, wrong = topic['right'], topic['wrong']
+            percentage = right / (right + wrong) * 100 # percentage of questions in the topic that you got right
+            subject_right += right
+            subject_wrong += wrong
             emojis = emoji(percentage)
             string_list.append(f"{topic['tag']}: {emojis} **{percentage:.2f}**%")
+        subject_qns = subject_right + subject_wrong
+        subject_percentage = subject_right / subject_qns * 100
+        subject_emoji = emoji(subject_percentage)
+        string_list.insert(2, f"---")
+        string_list.insert(2, f"Questions answered wrongly: **{subject_wrong}**")
+        string_list.insert(2, f"Questions answered correctly: **{subject_right}**")
+        string_list.insert(2, f"Total {subject} questions answered: **{subject_qns}**")
+        string_list.insert(2, f"Percentage: {subject_emoji} **{subject_percentage:.2f}%**")
+
+
+    except:
+        total_qns, right_qns, wrong_qns = total_stats["number_right"] + total_stats["number_wrong"], total_stats["number_right"], total_stats["number_wrong"]
+        string_list.append(f"Total questions answered: **{total_qns}**")
+        string_list.append(f"Questions answered correctly: **{right_qns}**")
+        string_list.append(f"Questions answered wrongly: **{wrong_qns}**")
+        total_percentage = right_qns / total_qns * 100
+        total_emoji = emoji(total_percentage)
+        string_list.append(f"Percentage: {total_emoji} **{total_percentage:.2f}%**")
     await ctx.send("\n".join(string_list))
 
 client.run(token)

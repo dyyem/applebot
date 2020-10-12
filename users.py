@@ -58,7 +58,8 @@ def write_to_dontpad():
 
 
 def add_player_score_helper(player, subject, tag, right):
-    for item in player["stats"][subject]:
+    tags = player["stats"][subject]
+    for item in tags:
         if item["tag"] == tag:
             if right: 
                 item["right"] += 1
@@ -66,6 +67,13 @@ def add_player_score_helper(player, subject, tag, right):
             else: 
                 item["wrong"] += 1
                 player["number_wrong"] += 1 
+            break
+    else:    # if tag not added
+        tag_dict = dict()
+        tag_dict["tag"] = tag
+        tag_dict["wrong"] = 0
+        tag_dict["right"] = 0
+        tags.append(tag_dict)
 
 
 def add_player_score(id, subject, tags, right):
