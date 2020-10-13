@@ -2,7 +2,7 @@ from dontpad import dontpad
 import os
 import json
 
-dontpad_link = '233450349853045APPLEBOT' # os.environ['DONTPAD_LINK']
+dontpad_link = os.environ['DONTPAD_LINK']
 
 # data = json.loads(dontpad.read(dontpad_link))
 questions = json.load(open("questions.json"))

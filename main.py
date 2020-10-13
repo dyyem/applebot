@@ -6,7 +6,7 @@ import os
 import users
 import helpercmds
 
-token = 'NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.wruoiMk68xFfLe_qTjDAAMi3Qto' # os.environ['TOKEN']
+token = os.environ['TOKEN']
 client = commands.Bot(command_prefix=".")
 subjects = ["chem", "phys", "bio"]
 questions = users.questions
