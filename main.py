@@ -63,6 +63,7 @@ async def question(ctx, subject=None, duration=None, tag=None):
             questions_list = [question for question in questions["questions"][0][subject] if tag in question["tags"]]
             if len(questions_list) == 0:
                 await ctx.send(f"Tag {tag} is invalid! Either you misspelled the tag or that tag has not been added yet. Sorry!")
+                question_ongoing = False
                 return
         else:
             questions_list = questions["questions"][0][subject]
@@ -74,13 +75,16 @@ async def question(ctx, subject=None, duration=None, tag=None):
             answer_submitted = False
             question_generated, questions_list, warning = generate_question(questions_list, subject)
             if warning:
-                await ctx.send(f"Ran out of questions. Bank has been refreshed. You may see some repeated questions.")
+                await ctx.send("Ran out of questions. Bank has been refreshed. You may see some repeated questions.")
 
             await ctx.send(f"Question **{question_counter}:**\n{question_generated['image']}")
 
             while not answer_submitted:
                 msg = await client.wait_for('message', check=lambda message: message.author != client.user)
                 answer = msg.content.upper().strip(" ")
+
+                if msg.channel != ctx.channel:
+                    continue
 
                 if answer == ".EXIT":
                     question_ongoing = False
