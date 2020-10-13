@@ -6,7 +6,7 @@ import os
 import users
 import helpercmds
 
-token = os.environ['TOKEN']
+token = 'NzYwODM4MDQ4MzAwMjY5NTg4.X3R3pg.wruoiMk68xFfLe_qTjDAAMi3Qto' # os.environ['TOKEN']
 client = commands.Bot(command_prefix=".")
 subjects = ["chem", "phys", "bio"]
 questions = users.questions
@@ -86,10 +86,13 @@ async def question(ctx, subject=None, duration=None, tag=None):
                     question_ongoing = False
                     await ctx.send("Session ended. Thanks for using the bot!")
                     break
-
-                if not answer[0] == ".":
-                    continue # only accept commands with "." in the name. this is separate to avoid spamming the channel with "Invalid answers!"
                 
+                try:
+                    if not answer[0] == ".":
+                        continue # only accept commands with "." in the name. this is separate to avoid spamming the channel with "Invalid answers!"
+                except:
+                    continue # the bot breaks whenever something that isn't a string (images, etc) are inputted, this fixes that.
+
                 if not helpercmds.answer_validator(subject, answer):
                     if ".QUESTION" not in answer: # edge case: someone asks for a question while a question is ongoing
                         await ctx.send("Invalid answer!")
@@ -136,14 +139,27 @@ async def question(ctx, subject=None, duration=None, tag=None):
         return
 
 
+# assigns an emoji to each percentage, this is displayed in stats.
 def emoji(percentage):
     if 75 <= percentage and percentage <= 100:
-        return ":green_circle:"
-    elif 50 <= percentage and percentage <= 100:
-        return ":yellow_circle:"
-    elif 0 <= percentage  and percentage <= 50:
-        return ":red_circle:"
-
+        return "<:a1:765211756704301086>"
+    elif 70 <= percentage and percentage < 75:
+        return "<:a2:765214881007009792>"
+    elif 65 <= percentage and percentage < 70 :
+        return "<:b3:765214880319406102>"
+    elif 60 <= percentage and percentage < 65 :
+        return "<:b4:765214880869253160>"
+    elif 55 <= percentage and percentage < 60 :
+        return "<:c5:765219041752121364>"
+    elif 50 <= percentage and percentage < 55 :
+        return "<:c6:765219041483948105>"
+    elif 45 <= percentage and percentage < 50:
+        return "<:d7:765219041160724533>"
+    elif 40 <= percentage and percentage < 45:
+        return "<:e8:765219041353662485>"
+    elif percentage < 40:
+        return "<:f9:765219041580417034>"
+    return ""
 
 @client.command()
 async def stats(ctx, subject=None):
@@ -179,7 +195,7 @@ async def stats(ctx, subject=None):
         string_list.insert(2, f"Questions answered wrongly: **{subject_wrong}**")
         string_list.insert(2, f"Questions answered correctly: **{subject_right}**")
         string_list.insert(2, f"Total {subject} questions answered: **{subject_qns}**")
-        string_list.insert(2, f"Percentage: {subject_emoji} **{subject_percentage:.2f}%**")
+        string_list.insert(2, f"Percentage: **{subject_percentage:.2f}%** {subject_emoji}")
 
 
     except:
@@ -189,7 +205,7 @@ async def stats(ctx, subject=None):
         string_list.append(f"Questions answered wrongly: **{wrong_qns}**")
         total_percentage = right_qns / total_qns * 100
         total_emoji = emoji(total_percentage)
-        string_list.append(f"Percentage: {total_emoji} **{total_percentage:.2f}%**")
+        string_list.append(f"Percentage: **{total_percentage:.2f}%** {total_emoji}")
     await ctx.send("\n".join(string_list))
 
 client.run(token)
