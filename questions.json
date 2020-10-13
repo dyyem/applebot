@@ -3,335 +3,6 @@
         {
             "chem": [
                 {
-                    "id": "chem-east-spring-2016-q1",
-                    "image": "https://i.imgur.com/GGX0K0E.png",
-                    "correct": "B",
-                    "tags": [
-                        "separation"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q2",
-                    "image": "https://i.imgur.com/2riwZsF.png",
-                    "correct": "D",
-                    "tags": [
-                        "acids-bases-salts"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q4",
-                    "image": "https://i.imgur.com/E1LWbGP.png",
-                    "correct": "B",
-                    "tags": [
-                        "separation"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q5",
-                    "image": "https://i.imgur.com/LWfvJl7.png",
-                    "correct": "A",
-                    "tags": [
-                        "separation"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q6",
-                    "image": "https://i.imgur.com/HdJJPHp.png",
-                    "correct": "D",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q6",
-                    "image": "https://i.imgur.com/HdJJPHp.png",
-                    "correct": "D",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q7",
-                    "image": "https://i.imgur.com/oO3MsZG.png",
-                    "correct": "B",
-                    "tags": [
-                        "atomic-structure"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q8",
-                    "image": "https://i.imgur.com/7yMNtpD.png",
-                    "correct": "D",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q9",
-                    "image": "https://i.imgur.com/TZ4W6MM.png",
-                    "correct": "A",
-                    "tags": [
-                        "calculation"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q10",
-                    "image": "https://i.imgur.com/oZUWtWm.png",
-                    "correct": "C",
-                    "tags": [
-                        "calculation"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q11",
-                    "image": "https://i.imgur.com/9e10RM7.png",
-                    "correct": "C",
-                    "tags": [
-                        "calculation",
-                        "acids-bases-salts"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q12",
-                    "image": "https://i.imgur.com/KBhxRMR.png",
-                    "correct": "B",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q13",
-                    "image": "https://i.imgur.com/HJlvNhF.png",
-                    "correct": "D",
-                    "tags": [
-                        "periodic-table"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q14",
-                    "image": "https://i.imgur.com/WiIGR2Y.png",
-                    "correct": "D",
-                    "tags": [
-                        "periodic-table"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q15",
-                    "image": "https://i.imgur.com/w14UgM8.png",
-                    "correct": "C",
-                    "tags": [
-                        "metals"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q16",
-                    "image": "https://i.imgur.com/cQFBZ1i.png",
-                    "correct": "A",
-                    "tags": [
-                        "metals"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q17",
-                    "image": "https://i.imgur.com/yf9EhhT.png",
-                    "correct": "A",
-                    "tags": [
-                        "metals"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q18",
-                    "image": "https://i.imgur.com/dEhPca4.png",
-                    "correct": "D",
-                    "tags": [
-                        "metals"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q19",
-                    "image": "https://i.imgur.com/qRz09ub.png",
-                    "correct": "B",
-                    "tags": [
-                        "qualitative-analysis"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q20",
-                    "image": "https://i.imgur.com/6FzAfwF.png",
-                    "correct": "B",
-                    "tags": [
-                        "qualitative-analysis"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q21",
-                    "image": "https://i.imgur.com/CFm3LNG.png",
-                    "correct": "C",
-                    "tags": [
-                        "qualitative-analysis"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q22",
-                    "image": "https://i.imgur.com/3dqJCCN.png",
-                    "correct": "D",
-                    "tags": [
-                        "acids-bases-salts"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q23",
-                    "image": "https://i.imgur.com/0Cuim5R.png",
-                    "correct": "A",
-                    "tags": [
-                        "acids-bases-salts"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q24",
-                    "image": "https://i.imgur.com/tEu5OXC.png",
-                    "correct": "D",
-                    "tags": [
-                        "acids-bases-salts"
-                    ]
-                },
-                {
-                    "id": "chem-east-spring-2016-q24",
-                    "image": "https://i.imgur.com/WxJ92lr.png",
-                    "correct": "A",
-                    "tags": [
-                        "air"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q1",
-                    "image": "https://i.imgur.com/wtuN1dR.png",
-                    "correct": "C",
-                    "tags": [
-                        "separation"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q2",
-                    "image": "https://i.imgur.com/nk8qDTu.png",
-                    "correct": "A",
-                    "tags": [
-                        "separation"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q3",
-                    "image": "https://i.imgur.com/9e3Fco9.png",
-                    "correct": "B",
-                    "tags": [
-                        "atomic-structure"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q4",
-                    "image": "https://i.imgur.com/PutT52K.png",
-                    "correct": "A",
-                    "tags": [
-                        "atomic-structure"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q5",
-                    "image": "https://i.imgur.com/1zCXbGx.png",
-                    "correct": "C",
-                    "tags": [
-                        "elements-compounds-mixtures"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q6",
-                    "image": "https://i.imgur.com/8kI9F8P.png",
-                    "correct": "C",
-                    "tags": [
-                        "atomic-structure"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q7",
-                    "image": "https://i.imgur.com/w0gl7hB.png",
-                    "correct": "D",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q8",
-                    "image": "https://i.imgur.com/0RHbCDe.png",
-                    "correct": "D",
-                    "tags": [
-                        "elements-compounds-mixtures"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q9",
-                    "image": "https://i.imgur.com/TIAgRvp.png",
-                    "correct": "B",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q10",
-                    "image": "https://i.imgur.com/yv5Vemw.png",
-                    "correct": "A",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q11",
-                    "image": "https://i.imgur.com/YAeOlRA.png",
-                    "correct": "D",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q12",
-                    "image": "https://i.imgur.com/ubinroI.png",
-                    "correct": "C",
-                    "tags": [
-                        "bonding"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q13",
-                    "image": "https://i.imgur.com/MQKMm9c.png",
-                    "correct": "C",
-                    "tags": [
-                        "acids-bases-salts"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q14",
-                    "image": "https://i.imgur.com/jGyQyse.png",
-                    "correct": "A",
-                    "tags": [
-                        "qualitative-analysis"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q15",
-                    "image": "https://i.imgur.com/OaASU5O.png",
-                    "correct": "C",
-                    "tags": [
-                        "calculation"
-                    ]
-                },
-                {
-                    "id": "chem-regent-sec-2016-q16",
-                    "image": "https://i.imgur.com/OXrgo5n.png",
-                    "correct": "A",
-                    "tags": [
-                        "acids-bases-salts"
-                    ]
-                },
-                {
                     "id": "chem-chij-katong-2018-q1",
                     "image": "https://i.imgur.com/8MF1RkY.png",
                     "correct": "B",
@@ -456,7 +127,7 @@
                     "image": "https://i.imgur.com/TLHquXt.png",
                     "correct": "B",
                     "tags": [
-                        "qualitative-analysis",
+                        "qualitative-analysis,",
                         "metals"
                     ]
                 },
@@ -546,6 +217,1158 @@
                     "correct": "C",
                     "tags": [
                         "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q1",
+                    "image": "https://i.imgur.com/H7A8DM2.png",
+                    "correct": "C",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q10",
+                    "image": "https://i.imgur.com/x0I7Iqr.png",
+                    "correct": "A",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q11",
+                    "image": "https://i.imgur.com/DPN54zb.png",
+                    "correct": "C",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q12",
+                    "image": "https://i.imgur.com/n2BFJfO.png",
+                    "correct": "B",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q13",
+                    "image": "https://i.imgur.com/iyVi3kz.png",
+                    "correct": "D",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q14",
+                    "image": "https://i.imgur.com/ncUx3W4.png",
+                    "correct": "B",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q15",
+                    "image": "https://i.imgur.com/GWi4icC.png",
+                    "correct": "C",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q16",
+                    "image": "https://i.imgur.com/k0UuACj.png",
+                    "correct": "C",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q17",
+                    "image": "https://i.imgur.com/kytrNj1.png",
+                    "correct": "A",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q18",
+                    "image": "https://i.imgur.com/oCqcGKt.png",
+                    "correct": "A",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q19",
+                    "image": "https://i.imgur.com/sN4yjNH.png",
+                    "correct": "B",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q2",
+                    "image": "https://i.imgur.com/5vPRBQZ.png",
+                    "correct": "B",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q20",
+                    "image": "https://i.imgur.com/VOrO1HW.png",
+                    "correct": "A",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q22",
+                    "image": "https://i.imgur.com/7svWTLK.png",
+                    "correct": "D",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q23",
+                    "image": "https://i.imgur.com/fq8OElJ.png",
+                    "correct": "A",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q24",
+                    "image": "https://i.imgur.com/FpUToMs.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q25",
+                    "image": "https://i.imgur.com/sIWnUHj.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q26",
+                    "image": "https://i.imgur.com/yjItV11.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q27",
+                    "image": "https://i.imgur.com/3u2Evyq.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q29",
+                    "image": "https://i.imgur.com/8TuYRkd.png",
+                    "correct": "D",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q3",
+                    "image": "https://i.imgur.com/IQr6EDI.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q4",
+                    "image": "https://i.imgur.com/PYng6tA.png",
+                    "correct": "A",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q5",
+                    "image": "https://i.imgur.com/Ng17WK2.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q6",
+                    "image": "https://i.imgur.com/tYysC87.png",
+                    "correct": "D",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q7",
+                    "image": "https://i.imgur.com/W8hl0wr.png",
+                    "correct": "B",
+                    "tags": [
+                        "atomic-structure"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q8",
+                    "image": "https://i.imgur.com/F6M3Jd1.png",
+                    "correct": "C",
+                    "tags": [
+                        "atomic-structure"
+                    ]
+                },
+                {
+                    "id": "chem-chua-chukang-2019-q9",
+                    "image": "https://i.imgur.com/YdgyaHN.png",
+                    "correct": "D",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q1",
+                    "image": "https://i.imgur.com/4zw30Np.png",
+                    "correct": "B",
+                    "tags": [
+                        "kinetic-particle-theory"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q10",
+                    "image": "https://i.imgur.com/uqvQXOF.png",
+                    "correct": "D",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q11",
+                    "image": "https://i.imgur.com/wYkg1fu.png",
+                    "correct": "B",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q12",
+                    "image": "https://i.imgur.com/ddspcqi.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q13",
+                    "image": "https://i.imgur.com/7iIgKPP.png",
+                    "correct": "D",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q14",
+                    "image": "https://i.imgur.com/6GFasQt.png",
+                    "correct": "B",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q15",
+                    "image": "https://i.imgur.com/UlHgVDZ.png",
+                    "correct": "C",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q19",
+                    "image": "https://i.imgur.com/xeisxzj.png",
+                    "correct": "D",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q2",
+                    "image": "https://i.imgur.com/SuVTXBE.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q20",
+                    "image": "https://i.imgur.com/O3nrWKW.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q21",
+                    "image": "https://i.imgur.com/ommedEb.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q22",
+                    "image": "https://i.imgur.com/ecAyBmv.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q23",
+                    "image": "https://i.imgur.com/ImUlgPJ.png",
+                    "correct": "D",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q3",
+                    "image": "https://i.imgur.com/GsQRa7R.png",
+                    "correct": "A",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q4",
+                    "image": "https://i.imgur.com/TJ13YWz.png",
+                    "correct": "C",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q5",
+                    "image": "https://i.imgur.com/00e6dAq.png",
+                    "correct": "B",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q6",
+                    "image": "https://i.imgur.com/nlFG8TK.png",
+                    "correct": "A",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q7",
+                    "image": "https://i.imgur.com/LZVqBd9.png",
+                    "correct": "B",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q8",
+                    "image": "https://i.imgur.com/g8RaQvI.png",
+                    "correct": "C",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-fuhua-sec-2019-q9",
+                    "image": "https://i.imgur.com/FSg6Xid.png",
+                    "correct": "D",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q1",
+                    "image": "https://i.imgur.com/PjzOVyZ.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q10",
+                    "image": "https://i.imgur.com/hh9CDnl.png",
+                    "correct": "C",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q11",
+                    "image": "https://i.imgur.com/qQPRmsy.png",
+                    "correct": "C",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q12",
+                    "image": "https://i.imgur.com/cXiN3dS.png",
+                    "correct": "A",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q13",
+                    "image": "https://i.imgur.com/mTEq6Pl.png",
+                    "correct": "A",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q14",
+                    "image": "https://i.imgur.com/eCB2VbF.png",
+                    "correct": "B",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q15",
+                    "image": "https://i.imgur.com/KfYuQyJ.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q16",
+                    "image": "https://i.imgur.com/y6pUet4.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q17",
+                    "image": "https://i.imgur.com/NKsoiMo.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q18",
+                    "image": "https://i.imgur.com/K0Zd2qR.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q19",
+                    "image": "https://i.imgur.com/ccQ09Cg.png",
+                    "correct": "A",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q2",
+                    "image": "https://i.imgur.com/TJvmc5H.png",
+                    "correct": "C",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q20",
+                    "image": "https://i.imgur.com/kXJtbJQ.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q21",
+                    "image": "https://i.imgur.com/cCL7wgF.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q3",
+                    "image": "https://i.imgur.com/tUuH0K8.png",
+                    "correct": "A",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q4",
+                    "image": "https://i.imgur.com/udKcSZV.png",
+                    "correct": "B",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q5",
+                    "image": "https://i.imgur.com/kxO3ad3.png",
+                    "correct": "B",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q6",
+                    "image": "https://i.imgur.com/dEhflRt.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q7",
+                    "image": "https://i.imgur.com/IWnZoVw.png",
+                    "correct": "A",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q8",
+                    "image": "https://i.imgur.com/jWGQ7O8.png",
+                    "correct": "B",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-geylang-methodist-2019-q9",
+                    "image": "https://i.imgur.com/0441lvO.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q1",
+                    "image": "https://i.imgur.com/aP7XhfR.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q10",
+                    "image": "https://i.imgur.com/dcMWQid.png",
+                    "correct": "D",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q11",
+                    "image": "https://i.imgur.com/phgwFEv.png",
+                    "correct": "D",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q12",
+                    "image": "https://i.imgur.com/Cryjqrp.png",
+                    "correct": "C",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q19",
+                    "image": "https://i.imgur.com/ksuPDiI.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q2",
+                    "image": "https://i.imgur.com/USy9ArW.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q22",
+                    "image": "https://i.imgur.com/agHNFvC.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q23",
+                    "image": "https://i.imgur.com/4sHiu3d.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q24",
+                    "image": "https://i.imgur.com/efrwHwX.png",
+                    "correct": "D",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q25",
+                    "image": "https://i.imgur.com/mu5OKZm.png",
+                    "correct": "D",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q26",
+                    "image": "https://i.imgur.com/MIbOBgF.png",
+                    "correct": "B",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q27",
+                    "image": "https://i.imgur.com/ll3guvb.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q28",
+                    "image": "https://i.imgur.com/xwZQWdK.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q29",
+                    "image": "https://i.imgur.com/2e06zTf.png",
+                    "correct": "A",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q3",
+                    "image": "https://i.imgur.com/sOjMiTD.png",
+                    "correct": "D",
+                    "tags": [
+                        "kinetic-particle-theory"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q30",
+                    "image": "https://i.imgur.com/cqdo8uD.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q31",
+                    "image": "https://i.imgur.com/otHjqtC.png",
+                    "correct": "D",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q32",
+                    "image": "https://i.imgur.com/p03AVEB.png",
+                    "correct": "A",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q33",
+                    "image": "https://i.imgur.com/BVk3cYC.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q34",
+                    "image": "https://i.imgur.com/WMv9Itx.png",
+                    "correct": "A",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q35",
+                    "image": "https://i.imgur.com/iFBP2zL.png",
+                    "correct": "B",
+                    "tags": [
+                        "air"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q4",
+                    "image": "https://i.imgur.com/xdv7YTW.png",
+                    "correct": "A",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q5",
+                    "image": "https://i.imgur.com/xViybd4.png",
+                    "correct": "B",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q6",
+                    "image": "https://i.imgur.com/mEmgkmr.png",
+                    "correct": "D",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q7",
+                    "image": "https://i.imgur.com/ISak3IX.png",
+                    "correct": "A",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q8",
+                    "image": "https://i.imgur.com/zU8ADSP.png",
+                    "correct": "D",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-mayflower-sec-2019-q9",
+                    "image": "https://i.imgur.com/GjyYmjS.png",
+                    "correct": "A",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q1",
+                    "image": "https://i.imgur.com/AjNWUIC.png",
+                    "correct": "C",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q10",
+                    "image": "https://i.imgur.com/w9raZef.png",
+                    "correct": "C",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q11",
+                    "image": "https://i.imgur.com/HG1Mkxn.png",
+                    "correct": "C",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q12",
+                    "image": "https://i.imgur.com/4ye6snX.png",
+                    "correct": "D",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q13",
+                    "image": "https://i.imgur.com/KAFv0q0.png",
+                    "correct": "B",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q14",
+                    "image": "https://i.imgur.com/M0vgdvL.png",
+                    "correct": "A",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q2",
+                    "image": "https://i.imgur.com/KHu6X4p.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q24",
+                    "image": "https://i.imgur.com/IHpR410.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q25",
+                    "image": "https://i.imgur.com/2TQnPoO.png",
+                    "correct": "B",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q26",
+                    "image": "https://i.imgur.com/ycpZy6N.png",
+                    "correct": "D",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q28",
+                    "image": "https://i.imgur.com/N35XdDh.png",
+                    "correct": "D",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q29",
+                    "image": "https://i.imgur.com/H0FSebE.png",
+                    "correct": "B",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q3",
+                    "image": "https://i.imgur.com/EIz0Z72.png",
+                    "correct": "B",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q30",
+                    "image": "https://i.imgur.com/IQ5HQPj.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q31",
+                    "image": "https://i.imgur.com/0VWYbQE.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q32",
+                    "image": "https://i.imgur.com/Pt3ORwE.png",
+                    "correct": "B",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q33",
+                    "image": "https://i.imgur.com/vA7hB1V.png",
+                    "correct": "D",
+                    "tags": [
+                        "air"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q34",
+                    "image": "https://i.imgur.com/icDjNv0.png",
+                    "correct": "B",
+                    "tags": [
+                        "air"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q4",
+                    "image": "https://i.imgur.com/1PBHBrb.png",
+                    "correct": "A",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q5",
+                    "image": "https://i.imgur.com/4pyVdyP.png",
+                    "correct": "D",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q6",
+                    "image": "https://i.imgur.com/IAHyOYs.png",
+                    "correct": "B",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q7",
+                    "image": "https://i.imgur.com/YDbygKZ.png",
+                    "correct": "D",
+                    "tags": [
+                        "atomic-structure"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q8",
+                    "image": "https://i.imgur.com/xBG5xhP.png",
+                    "correct": "B",
+                    "tags": [
+                        "atomic-structure"
+                    ]
+                },
+                {
+                    "id": "chem-queenstown-sec-2019-q9",
+                    "image": "https://i.imgur.com/ktVVdHA.png",
+                    "correct": "D",
+                    "tags": [
+                        "bonding"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q1",
+                    "image": "https://i.imgur.com/045lUwJ.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q11",
+                    "image": "https://i.imgur.com/Ig8u2tD.png",
+                    "correct": "C",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q12",
+                    "image": "https://i.imgur.com/THSgc8I.png",
+                    "correct": "B",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q13",
+                    "image": "https://i.imgur.com/tpbBbZD.png",
+                    "correct": "C",
+                    "tags": [
+                        "chemical-calculations"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q14",
+                    "image": "https://i.imgur.com/3yYXX6S.png",
+                    "correct": "D",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q18",
+                    "image": "https://i.imgur.com/eweUvnR.png",
+                    "correct": "B",
+                    "tags": [
+                        "air"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q2",
+                    "image": "https://i.imgur.com/VrrbKUN.png",
+                    "correct": "D",
+                    "tags": [
+                        "kinetic-particle-theory"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q23",
+                    "image": "https://i.imgur.com/EmjDt7t.png",
+                    "correct": "A",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q25",
+                    "image": "https://i.imgur.com/ADjkPCN.png",
+                    "correct": "C",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q26",
+                    "image": "https://i.imgur.com/aHlciIY.png",
+                    "correct": "B",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q27",
+                    "image": "https://i.imgur.com/Kk2XU7R.png",
+                    "correct": "A",
+                    "tags": [
+                        "periodic-table"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q28",
+                    "image": "https://i.imgur.com/qVcnSQt.png",
+                    "correct": "D",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q29",
+                    "image": "https://i.imgur.com/SxWcrtd.png",
+                    "correct": "A",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q3",
+                    "image": "https://i.imgur.com/2XokeS4.png",
+                    "correct": "D",
+                    "tags": [
+                        "qualitative-analysis"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q30",
+                    "image": "https://i.imgur.com/IVmin4d.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q31",
+                    "image": "https://i.imgur.com/YqBghx3.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q32",
+                    "image": "https://i.imgur.com/WNQsjIv.png",
+                    "correct": "C",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q33",
+                    "image": "https://i.imgur.com/e2zwDZk.png",
+                    "correct": "B",
+                    "tags": [
+                        "air"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q34",
+                    "image": "https://i.imgur.com/tHqYpMP.png",
+                    "correct": "B",
+                    "tags": [
+                        "air"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q4",
+                    "image": "https://i.imgur.com/eqMBpHs.png",
+                    "correct": "D",
+                    "tags": [
+                        "separation"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q5",
+                    "image": "https://i.imgur.com/k6LRsqp.png",
+                    "correct": "D",
+                    "tags": [
+                        "elements-compounds-mixtures"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q6",
+                    "image": "https://i.imgur.com/tWMPzDG.png",
+                    "correct": "A",
+                    "tags": [
+                        "metals"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q7",
+                    "image": "https://i.imgur.com/m6MenvC.png",
+                    "correct": "C",
+                    "tags": [
+                        "atomic-structure"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q8",
+                    "image": "https://i.imgur.com/SOYd5IP.png",
+                    "correct": "C",
+                    "tags": [
+                        "acids-bases-salts"
+                    ]
+                },
+                {
+                    "id": "chem-sengkang-sec-2019-q9",
+                    "image": "https://i.imgur.com/z3t72Hv.png",
+                    "correct": "B",
+                    "tags": [
+                        "elements-compounds-mixtures"
                     ]
                 }
             ],
@@ -1499,6 +2322,14 @@
                     "id": "phy-chij-nick-2019-q11",
                     "image": "https://i.imgur.com/qYFWKzb.png",
                     "correct": "A",
+                    "tags": [
+                        "turning-effect-of-forces"
+                    ]
+                },
+                {
+                    "id": "phy-chij-nick-2019-q12",
+                    "image": "https://i.imgur.com/aTqGpIU.png",
+                    "correct": "C",
                     "tags": [
                         "turning-effect-of-forces"
                     ]
